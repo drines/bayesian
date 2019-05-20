@@ -10,12 +10,12 @@ $$P(A|B) = \frac{P(B|A)\cdot P(A)} {P(B)}$$
 
 Where A is the event and B is some observed, related data.
 
-In this next quiz, given only three probabilities: `p_A`, `p_B_given_A`, and `p_notB_given_notA`, which can be written in notation as: 
+Given only three probabilities: `p_A`, `p_B_given_A`, and `p_notB_given_notA`, which can be written in notation as: 
 
 $$P(A), P(B|A)$$ 
 $$P(\neg B|\neg A)$$ 
 
-You will be asked to write a function to calculate the posterior probability 
+This function calculates the posterior probability 
 $$P(A|B)$$
 
 ## Instructions
